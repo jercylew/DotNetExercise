@@ -1,0 +1,90 @@
+﻿<Window x:Class="HRIS_UI.View.StaffActivityGridView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HRIS_UI.View"
+        mc:Ignorable="d"
+        Title="Activity Timetable" Height="300" Width="1200" MaxHeight="320" MaxWidth="1200">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80" />
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="150" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Label FontWeight="Bold" Grid.Column="0">Staff Name:</Label>
+        <TextBox Grid.Column="1" Margin="0,5,10,10" IsReadOnly="True" VerticalAlignment="Center">John Lien</TextBox>
+
+        <Grid Grid.Row="1" Grid.ColumnSpan="3" Margin="10,0,10,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+            </Grid.RowDefinitions>
+
+            <Button></Button>
+            <Button Grid.Column="1">9am - 11am</Button>
+            <Button Grid.Column="2">11am - 1pm</Button>
+            <Button Grid.Column="3">1pm - 3pm</Button>
+            <Button Grid.Column="4">3pm - 5pm</Button>
+
+            <Button Grid.Row="1">Monday</Button>
+            <Button Grid.Row="1" Grid.Column="1">Teaching 506  Physcis 333</Button>
+            <Button Grid.Row="1" Grid.Column="2">Button 9</Button>
+            <Button Grid.Row="1" Grid.Column="3">Button 10</Button>
+            <Button Grid.Row="1" Grid.Column="4">Button 11</Button>
+
+            <Button Grid.Row="2">Tuesday</Button>
+            <Button Grid.Row="2" Grid.Column="1" Background="BlueViolet">Button 14</Button>
+            <Button Grid.Row="2" Grid.Column="2">Button 15</Button>
+            <Button Grid.Row="2" Grid.Column="3">Button 16</Button>
+            <Button Grid.Row="2" Grid.Column="4">Button 17</Button>
+
+            <Button Grid.Row="3">Wednesday</Button>
+            <Button Grid.Row="3" Grid.Column="1">Button 20</Button>
+            <Button Grid.Row="3" Grid.Column="2">Button 21</Button>
+            <Button Grid.Row="3" Grid.Column="3">Button 22</Button>
+            <Button Grid.Row="3" Grid.Column="4">Button 23</Button>
+
+            <Button Grid.Row="4">Thursday</Button>
+            <Button Grid.Row="4" Grid.Column="1">Button 26</Button>
+            <Button Grid.Row="4" Grid.Column="2">Button 27</Button>
+            <Button Grid.Row="4" Grid.Column="3">Button 28</Button>
+            <Button Grid.Row="4" Grid.Column="4">Button 29</Button>
+
+            <Button Grid.Row="5">Friday</Button>
+            <Button Grid.Row="5" Grid.Column="1">Button 31</Button>
+            <Button Grid.Row="5" Grid.Column="2">Button 32</Button>
+            <Button Grid.Row="5" Grid.Column="3">Button 33</Button>
+            <Button Grid.Row="5" Grid.Column="4">Button 34</Button>
+        </Grid>
+
+        <!--<Grid Grid.Row="2" Grid.ColumnSpan="3" Margin="10,0,10,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            
+            <Button Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Width="120" Height="30">Teaching</Button>
+            <Button Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="120" Height="30">Consulting</Button>
+            <Button Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Right" Width="120" Height="30">Free</Button>
+        </Grid>-->
+    </Grid>
+</Window>

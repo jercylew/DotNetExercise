@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>HTML5 Secure Data</title>
+</head>
+<body>
+	<form>
+		<input type="text" readonly value="00XY998BB"/>
+		<br>
+		<input type="range" min="1" max="25" value="20" disabled="disabled" />
+		<br>
+		<textarea id="otherCommentsText" rows="5" cols="20" spellcheck="true"></textarea>
+		<br>
+		<div id="rate">
+			<input type="radio" id="chkOne" name="experience"/> 1 - Very Poor
+			<input type="radio" id="chkTwo" name="experience"/> 2
+			<input type="radio" id="chkThree" name="experience"/> 3
+			<input type="radio" id="chkFour" name="experience"/> 4
+			<input type="radio" id="chkFive" name="experience"/> 5 - Very Good
+		</div>
+		<input type="text" title="Only .com and .ca are permitted."
+			pattern="^[a-zA-Z0-9\-\.]+\.(com|ca)$" required />
+		<input type="email" placeholder="me@mydomain.com" required />
+		<table>
+			<tr>
+				<td>
+				<input type="submit"/>
+				<input type="reset"/>
+				<input type="button" value="Cancel"/>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

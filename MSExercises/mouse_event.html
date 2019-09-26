@@ -1,0 +1,43 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Array Testing</title>
+		
+		<style>
+			.scale {
+				transform:scale(1.5);
+			}
+			.green_bg {
+				background-color:green;
+			}
+			.yellow_bg {
+				background-color:yellow;
+			}
+		</style>
+		
+		<script>
+			window.onload = function () {
+				document.getElementById("yellowBox").addEventListener("mouseenter",
+					yellowBoxEnter);
+				document.getElementById("yellowBox").addEventListener("mouseleave",
+					yellowBoxLeave);
+			}
+			
+			function yellowBoxEnter() {
+				this.classList.remove("yellow_bg");
+				this.classList.add("scale");
+				this.classList.add("green_bg");
+			}
+			
+			function yellowBoxLeave() {
+				this.classList.remove("scale")
+				this.classList.remove("green_bg");
+				this.classList.add("yellow_bg");
+			}
+		</script>
+	</head>
+	<body>
+		<div id="yellowBox" style="width: 50%;height:50%;margin: 0 auto;">
+		</div>
+	</body>
+</html>

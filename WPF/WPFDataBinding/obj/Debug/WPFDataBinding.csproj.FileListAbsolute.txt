@@ -1,0 +1,14 @@
+E:\workspace\DotNet\WPF\WPFDataBinding\bin\Debug\WPFDataBinding.exe.config
+E:\workspace\DotNet\WPF\WPFDataBinding\bin\Debug\WPFDataBinding.exe
+E:\workspace\DotNet\WPF\WPFDataBinding\bin\Debug\WPFDataBinding.pdb
+E:\workspace\DotNet\WPF\WPFDataBinding\obj\Debug\MainWindow.g.cs
+E:\workspace\DotNet\WPF\WPFDataBinding\obj\Debug\App.g.cs
+E:\workspace\DotNet\WPF\WPFDataBinding\obj\Debug\WPFDataBinding_MarkupCompile.cache
+E:\workspace\DotNet\WPF\WPFDataBinding\obj\Debug\WPFDataBinding_MarkupCompile.lref
+E:\workspace\DotNet\WPF\WPFDataBinding\obj\Debug\MainWindow.baml
+E:\workspace\DotNet\WPF\WPFDataBinding\obj\Debug\WPFDataBinding.g.resources
+E:\workspace\DotNet\WPF\WPFDataBinding\obj\Debug\WPFDataBinding.Properties.Resources.resources
+E:\workspace\DotNet\WPF\WPFDataBinding\obj\Debug\WPFDataBinding.csproj.GenerateResource.cache
+E:\workspace\DotNet\WPF\WPFDataBinding\obj\Debug\WPFDataBinding.csproj.CoreCompileInputs.cache
+E:\workspace\DotNet\WPF\WPFDataBinding\obj\Debug\WPFDataBinding.exe
+E:\workspace\DotNet\WPF\WPFDataBinding\obj\Debug\WPFDataBinding.pdb

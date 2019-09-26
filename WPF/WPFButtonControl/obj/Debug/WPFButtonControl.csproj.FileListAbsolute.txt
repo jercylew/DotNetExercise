@@ -1,0 +1,15 @@
+E:\workspace\DotNet\WPF\WPFButtonControl\bin\Debug\WPFButtonControl.exe.config
+E:\workspace\DotNet\WPF\WPFButtonControl\bin\Debug\WPFButtonControl.exe
+E:\workspace\DotNet\WPF\WPFButtonControl\bin\Debug\WPFButtonControl.pdb
+E:\workspace\DotNet\WPF\WPFButtonControl\obj\Debug\WPFButtonControl.csprojAssemblyReference.cache
+E:\workspace\DotNet\WPF\WPFButtonControl\obj\Debug\MainWindow.g.cs
+E:\workspace\DotNet\WPF\WPFButtonControl\obj\Debug\App.g.cs
+E:\workspace\DotNet\WPF\WPFButtonControl\obj\Debug\WPFButtonControl_MarkupCompile.cache
+E:\workspace\DotNet\WPF\WPFButtonControl\obj\Debug\WPFButtonControl_MarkupCompile.lref
+E:\workspace\DotNet\WPF\WPFButtonControl\obj\Debug\MainWindow.baml
+E:\workspace\DotNet\WPF\WPFButtonControl\obj\Debug\WPFButtonControl.g.resources
+E:\workspace\DotNet\WPF\WPFButtonControl\obj\Debug\WPFButtonControl.Properties.Resources.resources
+E:\workspace\DotNet\WPF\WPFButtonControl\obj\Debug\WPFButtonControl.csproj.GenerateResource.cache
+E:\workspace\DotNet\WPF\WPFButtonControl\obj\Debug\WPFButtonControl.csproj.CoreCompileInputs.cache
+E:\workspace\DotNet\WPF\WPFButtonControl\obj\Debug\WPFButtonControl.exe
+E:\workspace\DotNet\WPF\WPFButtonControl\obj\Debug\WPFButtonControl.pdb

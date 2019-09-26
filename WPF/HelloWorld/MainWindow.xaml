@@ -1,0 +1,25 @@
+﻿<Window x:Class="HelloWorld.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HelloWorld"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="36" Margin="322,185,0,0" TextWrapping="Wrap"
+                 Text="Hello World" VerticalAlignment="Top" Width="133"/>
+        <Button Margin = "320,250,337,119" Content = "Dependency Property" RenderTransformOrigin="0.497,1.875">
+            <Button.Style>
+                <Style TargetType = "{x:Type Button}">
+                    <Style.Triggers>
+                        <Trigger Property = "IsMouseOver" Value = "True">
+                            <Setter Property = "Foreground" Value = "Red" />
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+        <local:UCTextBox SetText = "Hellow World"/>
+    </Grid>
+</Window>
